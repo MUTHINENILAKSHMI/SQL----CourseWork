@@ -1,0 +1,101 @@
+----SQL----
+--data is a collection of raw facts or information
+--for example student information is data and headings and post information comments likes in link din all are data
+--data is stored in 3 formats
+--structured semi structured and unstructured
+--data is a unprocessed raw data which don't have any meaning
+--information is a processed data which have meaning
+--by giving some commends to data we can get information
+--file management---
+--File management is the process of creating, storing, organizing, accessing, modifying, protecting, and deleting files on a computer or storage system.
+--file management means  managing different files
+--in this file management we can create update delete and retrieve
+--in file manipulation we can rename 
+--in this we can also do file copying, file access, file moving, file storage
+--drawbacks of file management-----
+--data redundancy
+--data inconsistent
+--data security
+--data scalability
+--data sharing
+--queries
+--no relation
+--1. What is Management?
+
+Management means planning, organizing, controlling, and taking care of something so that it works properly and achieves a specific goal.
+--2. What is a Database?
+A database is an organized collection of related data that is stored so that it can be easily accessed, managed, and updated.
+--4. What is Database Management?
+Database management means the process of creating, organizing, storing, accessing, updating, securing, and maintaining data in a database.
+
+Row = Record
+Column = Field / Attribute 
+Rows + Columns = Table
+
+
+
+Hierarchical Model
+=========================
+Data is organized in a tree-like structure.
+It has a parent-child relationship.
+One parent can have multiple children.
+Each child usually has only one parent.
+
+
+Relational Model
+===================
+Data is stored in tables.
+Tables contain rows and columns.
+Tables can be connected using keys such as Primary Key and Foreign Key.
+SQL is used to create, store, retrieve, and manage data.
+
+Object-Oriented Model
+=======================
+Data is stored as objects.
+An object contains data + methods (behavior).
+It follows OOP concepts such as class, object, inheritance, encapsulation, etc.
+ Network Model
+===================
+Data is organized in a network/graph structure.
+It supports many-to-many relationships.
+A record can have multiple parent records.
+It is more flexible than the hierarchical model.
+Object-Relational Model
+===================
+It is a combination of Relational Model + Object-Oriented Model.
+Data is mainly stored in tables.
+It also supports object-oriented features such as objects, custom data types, and methods.
+It provides the advantages of both relational and object-oriented models.
+SQL Data Types 
+=====================
+numeric datatypes
+=========================
+INT → Stores normal whole numbers. Example: 10, 100
+BIGINT → Stores very large whole numbers.
+FLOAT → Stores approximate decimal numbers.
+DOUBLE → Stores decimal numbers with higher precision than FLOAT.
+DECIMAL → Stores exact decimal numbers, mainly used for money.
+TINYINT → Stores very small whole numbers.
+BOOLEAN → Stores TRUE or FALSE values.
+strings:
+===============
+CHAR → Stores fixed-length characters or strings.
+VARCHAR → Stores variable-length characters or strings.
+TEXT → Stores large amounts of text.
+ENUM → Stores one value from a predefined list of values.
+data and time
+=====================
+DATE → Stores only the date. 
+TIME → Stores only the time. 
+DATETIME → Stores both date and time.
+TIMESTAMP → Stores date and time, commonly used for recording when something was created or updated.
+Constrains:
+======================
+PRIMARY KEY	:Uniquely identifies each row. Cannot contain NULL.
+FOREIGN KEY	:Links one table to another table's primary/unique key.
+NOT NULL	:Ensures a column must have a value.
+UNIQUE	:Ensures all values in a column are different.
+DEFAULT	:Automatically provides a value when no value is specified.
+
+
+
